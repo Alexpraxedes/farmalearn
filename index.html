@@ -82,16 +82,88 @@
 						<input type="text" name="search" id="search">
 						<i class="fa fa-search"></i>
 					</div>
-					<div class="qr-code">
-						<a href="">
-							<i class="fa fa-qrcode"></i>
-						</a>
-					</div>
+
+					<a class="qr-code effect btn" href="">
+						<i class="fa fa-camera"></i>
+						<span>Ler código<br />de barras</span>
+					</a>
 				</div>
 			</form>
 		</div>
 	</div>
 	<!-- end search -->
+	
+	<!-- filter -->
+	<div class="filter">
+		<div class="container">
+			<form action="">
+				<div class="row">
+					<div class="input-field col s4">
+						<select class="browser-default">
+							<option value="" disabled selected>Filtro 1</option>
+							<option value="1">Option 1</option>
+							<option value="2">Option 2</option>
+							<option value="3">Option 3</option>
+						</select>
+					</div>
+					
+					<div class="input-field col s4">
+						<select class="browser-default">
+							<option value="" disabled selected>Filtro 2</option>
+							<option value="1">Option 1</option>
+							<option value="2">Option 2</option>
+							<option value="3">Option 3</option>
+						</select>
+					</div>
+					
+					<div class="input-field col s4">
+						<select class="browser-default">
+							<option value="" disabled selected>Filtro 3</option>
+							<option value="1">Option 1</option>
+							<option value="2">Option 2</option>
+							<option value="3">Option 3</option>
+						</select>
+					</div>
+
+					<div id="add-filter" class=" blocked">
+						<div class="input-field col s4">
+							<select class="browser-default">
+								<option value="" disabled selected>Filtro 4</option>
+								<option value="1">Option 1</option>
+								<option value="2">Option 2</option>
+								<option value="3">Option 3</option>
+							</select>
+						</div>
+						
+						<div class="input-field col s4">
+							<select class="browser-default">
+								<option value="" disabled selected>Filtro 5</option>
+								<option value="1">Option 1</option>
+								<option value="2">Option 2</option>
+								<option value="3">Option 3</option>
+							</select>
+						</div>
+						
+						<div class="input-field col s4">
+							<select class="browser-default">
+								<option value="" disabled selected>Filtro 6</option>
+								<option value="1">Option 1</option>
+								<option value="2">Option 2</option>
+								<option value="3">Option 3</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+				<div class="btns">
+					<input type="button" class="effect btn filter-plus" value="Mais filtros"></input>
+					<a class="effect btn sucess">Aplicar</a>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- end search -->
+
 
 	<!-- offers -->
 	<div class="offers">
@@ -285,5 +357,12 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/lightbox.min.js"></script>
 	<script src="js/custom.js"></script>
+
+	<script>
+		$(".filter-plus").click(function(){
+			$("#add-filter").toggleClass("blocked");
+			$(".filter-plus").attr('value', 'Mostrar menos');
+		});
+	</script>
 </body>
 </html>

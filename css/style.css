@@ -77,6 +77,10 @@ p {
 	font-weight: bold;
 }
 
+.btn {
+    font-size: 12px;
+}
+
 /*===================
 	colors
 ===================*/
@@ -275,9 +279,95 @@ p {
 	padding-top: 20px;
 }
 
+.search .row {
+    display: inline-flex;
+    width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+input#search {
+    border: none;
+}
+
 .search-field {
     display: flex;
     align-content: center;
+    height: 35px;
+    border: 1px solid #34679A;
+    border-radius: 3px;
+    padding: 0px 5px;
+	width: 100%;
+}
+
+i.fa.fa-search {
+    display: flex;
+    height: 35px;
+	font-size: 20px;
+}
+
+.fa-search:before{
+	margin: auto;
+}
+
+.qr-code {
+    display: inline-flex;
+	align-items: center;
+	background: #34679A;
+    border-radius: 3px;
+    margin-left: 5px;
+    color: #fff;
+    font-size: 20px;
+	padding: 0 5px;
+}
+
+.qr-code i {
+    display: flex;
+}
+
+.qr-code i:before {
+    margin: auto;
+}
+
+.qr-code span {
+    font-size: small;
+	margin-left: 5px;
+	min-width: max-content;
+    letter-spacing: -1px;
+    line-height: 1.2;
+}
+
+/*===================
+	filter
+===================*/
+
+select.browser-default {
+    display: block;
+    height: 35px;
+}
+
+.filter .container {
+    border-top: 1px solid #f2f2f2;
+}
+
+.btns{
+	display: inline-flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.sucess {
+    background: #ff6600;
+}
+
+.filter-plus {
+    background-color: #ffffff00;
+    color: darkgray;
+    margin-right: 5px;
+}
+
+.blocked{
+	display: none;
 }
 
 /*===================
@@ -1404,7 +1494,7 @@ footer h6 {
 	font-size: 20px;
 }
 
-footer .icon-social {
+.icon-social {
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -1412,7 +1502,7 @@ footer .icon-social {
 	margin-bottom: 15px;
 }
 
-footer .icon-social li {
+.icon-social li {
 	display: inline-block;
 	width: 30px;
 	height: 30px;
@@ -1422,23 +1512,23 @@ footer .icon-social li {
 	border-radius: 100%;
 }
 
-footer .icon-social .facebook {
+.icon-social .facebook {
 	background: #3b5998;
 }
 
-footer .icon-social .twitter {
+.icon-social .twitter {
 	background: #00aced;
 }
 
-footer .icon-social .google {
+.icon-social .google {
 	background: #dd4b39;
 }
 
-footer .icon-social .instagram {
+.icon-social .instagram {
 	background: #517fa6;
 }
 
-footer .icon-social .rss {
+.icon-social .rss {
 	background: #fe7e00;
 
 }
