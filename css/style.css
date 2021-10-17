@@ -1404,15 +1404,18 @@ footer h6 {
 	font-size: 20px;
 }
 
-footer .icon-social {
+.icon-social {
 	padding: 0;
 	margin: 0;
 	list-style: none;
 	margin-top: 20px;
 	margin-bottom: 15px;
 }
+.icon-social a{
+	color: #fff;
+}
 
-footer .icon-social li {
+.icon-social li {
 	display: inline-block;
 	width: 30px;
 	height: 30px;
@@ -1422,23 +1425,23 @@ footer .icon-social li {
 	border-radius: 100%;
 }
 
-footer .icon-social .facebook {
+.icon-social .facebook {
 	background: #3b5998;
 }
 
-footer .icon-social .twitter {
+.icon-social .twitter {
 	background: #00aced;
 }
 
-footer .icon-social .google {
+.icon-social .google {
 	background: #dd4b39;
 }
 
-footer .icon-social .instagram {
+.icon-social .instagram {
 	background: #517fa6;
 }
 
-footer .icon-social .rss {
+.icon-social .rss {
 	background: #fe7e00;
 
 }
@@ -1447,24 +1450,24 @@ footer ul li a {
 	color: #fff;
 }
 
-footer .tel-fax-mail ul {
+.tel-fax-mail ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 	color: #bbb;
 }
 
-footer .tel-fax-mail ul li {
+.tel-fax-mail ul li {
 	padding: 4px 0;
 }
 
-footer .tel-fax-mail ul li span {
+.tel-fax-mail ul li span {
 	font-weight: bold;
 	padding: 0;
 	margin: 0;
 }
 
-footer .ft-bottom {
+.ft-bottom {
 	border-top: 1px solid #222;
 	margin-top: 20px;
 	padding-top: 20px;
