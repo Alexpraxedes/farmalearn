@@ -1501,6 +1501,9 @@ footer h6 {
 	margin-top: 20px;
 	margin-bottom: 15px;
 }
+.icon-social a{
+	color: #fff;
+}
 
 .icon-social li {
 	display: inline-block;
@@ -1537,24 +1540,24 @@ footer ul li a {
 	color: #fff;
 }
 
-footer .tel-fax-mail ul {
+.tel-fax-mail ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 	color: #bbb;
 }
 
-footer .tel-fax-mail ul li {
+.tel-fax-mail ul li {
 	padding: 4px 0;
 }
 
-footer .tel-fax-mail ul li span {
+.tel-fax-mail ul li span {
 	font-weight: bold;
 	padding: 0;
 	margin: 0;
 }
 
-footer .ft-bottom {
+.ft-bottom {
 	border-top: 1px solid #222;
 	margin-top: 20px;
 	padding-top: 20px;
